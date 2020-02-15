@@ -1,0 +1,31 @@
+# Directories
+.chrome/**
+.idea/**
+.vscode/**
+browser/**
+build/**
+coverage/**
+docker-env/**
+dist/
+coverage/
+graph/**
+node_modules/
+out-tsc/**
+tmp/**
+artifact/**
+
+# Files
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.protractor-fail-fast
+artifact.zip
+
+# Crap
+.DS_Store
+Thumbs.db
+tests/units.html

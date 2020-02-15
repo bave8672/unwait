@@ -1,0 +1,19 @@
+node_js:
+    - "12"
+before_install:
+    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+    - cp .npmrc ~/.npmrc
+install:
+    - npm ci
+jobs:
+    include:
+        - stage: test
+          name: lint
+          script: npm run lint
+        - stage: test
+          name: unit tests
+          script: npm run test
+        - stage: publish
+          if: branch IN (master)
+          script: npm run build
+          after_success: npm publish || true
