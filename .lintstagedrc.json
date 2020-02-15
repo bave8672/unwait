@@ -1,0 +1,7 @@
+{
+    "**/*.{js,ts,css,scss,json,html,yml}": ["prettier --write", "git add"],
+    "src/**/*.ts": [
+        "tslint --config tslint.json --format codeFrame --fix",
+        "git add"
+    ]
+}

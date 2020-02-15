@@ -1,0 +1,8 @@
+{
+    "defaultSeverity": "error",
+    "rules": {
+        "cyclomatic-complexity": true,
+        "interface-name": false
+    },
+    "extends": ["tslint:recommended", "tslint-sonarts"]
+}
