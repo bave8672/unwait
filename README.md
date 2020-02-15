@@ -1,5 +1,7 @@
 # Unwait
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bave8672/unwait.svg)](https://greenkeeper.io/)
+
 Unwait makes it possible to access the properties and methods of async results before they are resolved, making Promise based APIs simpler and less verbose to work with. For example, with the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API),
 
 ```javascript
