@@ -1,6 +1,6 @@
 {
     "name": "unwait",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Access properties and call methods on promised values before they are resolved.",
     "main": "src/index.js",
     "scripts": {
@@ -17,6 +17,10 @@
     ],
     "author": "Ben Aves",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/bave8772/unwait.git"
+    },
     "devDependencies": {
         "@types/jest": "^25.1.2",
         "husky": "^4.2.3",
