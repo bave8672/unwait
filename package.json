@@ -1,8 +1,9 @@
 {
     "name": "unwait",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Access properties and call methods on promised values before they are resolved.",
-    "main": "src/index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc --project src/tsconfig.src.json",
         "test": "jest",
